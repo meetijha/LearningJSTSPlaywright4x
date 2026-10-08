@@ -17,8 +17,9 @@ The main goal of this repository is to help build a solid understanding of:
 LearningJSTSPlaywright4x/
 ├── README.md
 ├── 01_chapter_JS_Basics/
-│   └── 01_HelloWorld.js
-└── ...
+│   ├── 01_HelloWorld.js
+│   └── 02_Math.js
+└── .git/
 ```
 
 ## Prerequisites
@@ -45,12 +46,33 @@ Expected output:
 Hello World
 ```
 
-## Example
+### Run the Math example
 
-This is the first JavaScript example in the project:
+```bash
+node 01_chapter_JS_Basics/02_Math.js
+```
+
+This script demonstrates basic arithmetic operations such as addition, subtraction, multiplication, division, and modulus.
+
+## Examples
+
+### 1) Hello World
 
 ```javascript
 console.log("Hello World");
+```
+
+### 2) Math operations
+
+```javascript
+const a = 10;
+const b = 5;
+
+console.log("Addition:", a + b);
+console.log("Subtraction:", a - b);
+console.log("Multiplication:", a * b);
+console.log("Division:", a / b);
+console.log("Modulus:", a % b);
 ```
 
 ## Learning Path
